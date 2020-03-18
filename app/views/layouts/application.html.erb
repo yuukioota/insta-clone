@@ -4,7 +4,7 @@
     <title>Techpitgram</title>
     <%= csrf_meta_tags %>
 
-    <%# ここの1行も追加 %>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -26,11 +26,11 @@
         </div>
       <% end %>
 
-      <%# ==========ここにcontainerクラスを追加する========== %>
+      
       <div class="container">
         <%= yield %>
       </div>
-      <%# ==========divの閉じタグを追加========== %>
+      
 
       <%= render 'partial/footer' %>
     </div>
