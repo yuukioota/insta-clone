@@ -3,5 +3,5 @@ class Photo < ApplicationRecord
   
   validates :image, presence: true
   
-  mount_uploadder :image, ImageUploader
+  mount_uploader :image, ImageUploader
 end
